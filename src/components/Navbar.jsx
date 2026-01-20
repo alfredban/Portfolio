@@ -2,7 +2,7 @@ import fotoCV from '../assets/fotoCV.jpg'
 
 export default  function Nav(){
 return(
-<div className="navbar bg-base-100 shadow-md hover:shadow-xl transition  mx-auto  flex w-full h-16 items-center justify-center bg-[#eff0d5] text-3xl "
+<div className="navbar bg-base-100 shadow-md hover:shadow-xl transition  mx-auto  flex w-full h-16 items-center justify-center bg-[#eff0d5] text-3xl slide-in-top "
 style={{ fontFamily: '"VT323", system-ui' }}>
   <div className="flex-1">
     <a className="btn btn-ghost ml-7 text-[#171430]">Alfredo Ivanovich</a>
