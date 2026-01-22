@@ -1,9 +1,9 @@
+import { useEffect, useRef } from 'react';
 import fotoCV from '../assets/fotoCV.jpg'
 import GridMotion from './backgrounds/GridMotion';
 
 export default function Nav() {
 
-  
 // background 
 const items=[
   "https://images.unsplash.com/photo-1748370987492-eb390a61dcda?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import AboutMe from './components/AboutMe.jsx'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -10,24 +11,25 @@ function App() {
 
   return (
     <>
-  <nav className="sticky top-0 z-50">
-  <Navbar/>
-  </nav>
+    <nav className="sticky top-0 z-50">
+    <Navbar/>
+    </nav>
+
     <main>
     <Hero/>
     </main>
-   
+
     <section>
       <AboutMe/>
     </section>
 
     <section>
-      proyectos
+      <Projects/>
     </section>
 
-      <section>
-        herramientas usadas
-      </section>
+    <footer>
+      que cosas usamos
+    </footer>
 
     </>
   )
