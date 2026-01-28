@@ -2,7 +2,7 @@ import { Description } from "@mui/icons-material";
 import Odoo from "../assets/Odoo.jpg"
 import Airbnb from "../assets/Airbnb.jpg"
 import CodeIgniter from "../assets/CodeIgniter.png"
-import C from "../assets/C.jpg"
+import C from "../assets/Cimg.jpg"
 import Mongo from "../assets/Mongo.png"
 import Spring from "../assets/Spring.webp"
 
