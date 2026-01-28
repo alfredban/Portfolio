@@ -16,7 +16,7 @@ return(
 
     <div className="projects-grid grid grid-cols-3 gap-10 justify-items-center ">
       {proyectos.map((proyecto) => (
-        <div key={proyecto.id} className=" sobre-mi-card ml-10 mr-10 transition-transform duration-300 hover:scale-110 h-130 w-140"> 
+        <div key={proyecto.id} className=" sobre-mi-card ml-10 mr-10 transition-transform duration-300 hover:scale-110 h-120 w-140"> 
         <div className="flex items-center justify-center">
             <img className="h-50 w-80 object-cover rounded-2xl border-2 border-gray-500 " src={proyecto.imagen} alt={proyecto.nombre} />
         </div>
