@@ -42,7 +42,7 @@ const items=[
   return (
 
     
-    <div className="relative h-screen overflow-hidden bg-[#171430]">
+    <div className="relative h-screen p-10 overflow-hidden bg-[#171430] w-full">
 
      <div className="absolute inset-0 z-0 pointer-events-none">
       <GridMotion items={items}
@@ -50,14 +50,14 @@ const items=[
     />
     </div>
     
-      <div className="relative z-10 flex justify-center items-center">
+      <div className="relative z-10 md:flex justify-center items-center ">
 
         <div
           tabIndex={0}
           role="button"
-          className="btn btn-ghost btn-circle avatar flex ml-80 mt-50"
+          className="btn btn-ghost btn-circle avatar md:flex mx-auto mt-6 md:ml-80 md:mt-50 "
         >
-          <div className="w-100 h-100 rounded-full overflow-hidden mr-50 border-3 shadow-3xl transition-transform duration-300 hover:scale-110">
+          <div className="w-60 h-60 md:w-100 md:h-100 rounded-full overflow-hidden md:mr-50 border-3 shadow-3xl transition-transform duration-300 hover:scale-110  mx-auto">
             <img
               src={fotoCV}
               alt="Foto CV"
@@ -67,19 +67,19 @@ const items=[
         </div>
 
         <div
-          className="flex flex-col  mr-60 mt-60 text-6xl text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] tracking-in-expand"
+          className="flex flex-col items-center text-center mt-6 px-4 md:items-start md:text-left md:mr-60 md:mt-60 md:text-6xl text-3xl text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] tracking-in-expand"
           style={{ fontFamily: '"Raleway", system-ui' }}
         >
           <h1 className="transition-transform duration-300 hover:scale-110 ">
             Alfredo Ivanovich
           </h1>
 
-          <h2 className="text-5xl  transition-transform duration-300 hover:scale-110 ">
+          <h2 className="md:text-5xl  transition-transform duration-300 hover:scale-110 ">
             Portfolio web
           </h2>
 
           <a
-            className="ml-45 text-3xl  transition-transform duration-300 hover:scale-110 mt-5"
+            className="md:ml-45 md:text-3xl  transition-transform duration-300 hover:scale-110 mt-5"
             href="https://raw.githubusercontent.com/alfredban/CV-link-/main/CV-%20Ivanovich%20Alfredo.pdf"
           >
             Descargar CV

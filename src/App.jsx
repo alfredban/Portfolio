@@ -12,10 +12,9 @@ function App() {
 
   return (
     <>
-    <nav className="sticky top-0 z-50">
+    
     <Navbar/>
-    </nav>
-
+    
     <main>
     <Hero/>
     </main>

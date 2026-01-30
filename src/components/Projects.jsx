@@ -9,16 +9,16 @@ return(
   
 
 
-  <div className='projects h-500 text-center' id='Proyectos'>
+  <div className='projects md:h-500  h-1150 text-center w-full' id='Proyectos'>
 
-        <h1 className='text-white text-6xl mb-30 ml-10' style={{ fontFamily: '"Raleway", system-ui' }}>Proyectos</h1>
+        <h1 className='text-white text-6xl mb-30' style={{ fontFamily: '"Raleway", system-ui' }}>Proyectos</h1>
 
 
-    <div className="projects-grid grid grid-cols-3 gap-10 justify-items-center ">
+    <div className="projects-grid md:grid md:grid-cols-3 gap-10 justify-items-center  grid-cols-1 ">
       {proyectos.map((proyecto) => (
-        <div key={proyecto.id} className=" sobre-mi-card ml-10 mr-10 transition-transform duration-300 hover:scale-110 h-120 w-140"> 
+        <div key={proyecto.id} className=" sobre-mi-card ml-10 mr-10 transition-transform duration-300 hover:scale-110 md:h-120 md:w-140 h-auto w-90 mb-10"> 
         <div className="flex items-center justify-center">
-            <img className="h-50 w-80 object-cover rounded-2xl border-2 border-gray-500 " src={proyecto.imagen} alt={proyecto.nombre} />
+            <img className="md:h-50 md:w-80 h-25 w-40 object-cover rounded-2xl border-2 border-gray-500 " src={proyecto.imagen} alt={proyecto.nombre} />
         </div>
           <h2>{proyecto.nombre}</h2>
           <span>{proyecto.descripcion}</span>

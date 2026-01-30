@@ -5,7 +5,7 @@
 
         return(
 
-     <div className="footer-links text-shadow-2xs">
+     <div className="footer-links text-shadow-2xs w-full text-white">
         <div className="flex gap-3 justify-center">
             <a className="underline" href="https://github.com/alfredban" target="_blank" rel="noreferrer">GitHub</a>
             <a className="underline" href="https://www.linkedin.com/in/alfredo-ivanovich-3b4596249" target="_blank" rel="noreferrer">LinkedIn</a>

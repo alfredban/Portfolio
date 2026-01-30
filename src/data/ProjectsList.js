@@ -5,6 +5,7 @@ import CodeIgniter from "../assets/CodeIgniter.png"
 import C from "../assets/Cimg.jpg"
 import Mongo from "../assets/Mongo.png"
 import Spring from "../assets/Spring.webp"
+import Port from "../assets/Port.webp"
 
 export const proyectos = [
 {
@@ -78,5 +79,14 @@ export const proyectos = [
     tecnologias:["Doodba","Linux","Docker","Python"],
     link:"https://github.com/alfredban/odoomoduleRealEstateG1",
     imagen: Odoo
+},
+{
+    id:1,
+    nombre:"Portfolio web",
+    descripcion: "Repositorio donde encontraran el codigo de esta misma pagina",
+    framework: "react",
+    tecnologias:["Vite","JavaScript","Tailwind"],
+    link:"https://github.com/alfredban/portfolio",
+    imagen: Port
 }
 ]

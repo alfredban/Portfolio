@@ -11,7 +11,10 @@ export default function AboutMe() {
 
     return(
 
-    <div className="relative bg-[#000000] h-240 flex items-center justify-center overflow-hidden" id="Sobre mi">
+    <div className="relative bg-black
+  min-h-screen
+  flex items-center justify-center
+   w-full" id="Sobre-mi">
 
          <div className="absolute inset-0 z-0 pointer-events-none">
             <Particles
@@ -28,7 +31,7 @@ export default function AboutMe() {
         </div>
 
 
-        <div className=' h-150 flex items-center' >
+        <div className='flex flex-col md:flex-row items-center gap-8 px-4' >
             
             <div className='sobre-mi-card' 
             style={{ fontFamily: '"Raleway", system-ui' }}> 
@@ -41,7 +44,7 @@ export default function AboutMe() {
 
             </div>
 
-            <div className='ml-40 mb-60 text-white flex flex-col gap-2 text-2xl' style={{ fontFamily: '"Raleway", system-ui' }}>     
+            <div className='text-white flex flex-col gap-2 text-base md:text-2xl md:ml-40' style={{ fontFamily: '"Raleway", system-ui' }}>     
                 <h2 className="text-3xl ">Contacto:</h2>
                 
                 <div className="flex gap-1">
